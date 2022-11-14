@@ -8,3 +8,7 @@ body{
     background-size: cover;
     height: 600px;
 }
+
+.my_button {
+background-color: #CD3D0F;
+}
