@@ -18,3 +18,11 @@ background-color: #CD3D0F;
     border: none;
 }
 
+
+
+@media (max-width: 768px) {
+    section.ps5_image p {
+        display: none;
+    
+    }
+}
