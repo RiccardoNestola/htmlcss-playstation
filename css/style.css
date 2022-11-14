@@ -14,8 +14,15 @@ background-color: #CD3D0F;
 }
 
 
-.my_card {
+.my_card,
+.my_game {
     border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.my_game img {
+    height: auto;
+    width: 100%;
 }
 
 
@@ -25,6 +32,16 @@ background-color: #CD3D0F;
     background-size: cover;
     /* height: 600px; */
 }
+
+.games {
+    background-color: #1F1F1F;
+}
+
+
+
+
+
+
 
 @media (max-width: 768px) {
     section.ps5_image p {
