@@ -1,3 +1,10 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.my_hero {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
