@@ -72,9 +72,9 @@ background-color: #CD3D0F;
     }
 }
 
-@media (min-width: 768px) {
-    .my_card img {
+/* @media (min-width: 768px) {
+    .my_social img {
         height: auto;
         width: 50%;
     }
-}
+} */
