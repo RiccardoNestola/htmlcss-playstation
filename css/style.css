@@ -17,6 +17,11 @@ background-color: #CD3D0F;
     background-color: #D9DADC;
     }
 
+    
+.my_card img {
+    height: auto;
+    width: 100%;
+}
 
 .my_card,
 .my_game {
@@ -50,6 +55,11 @@ background-color: #CD3D0F;
     background-color: #161C3B;
 }
 
+.wrapper {
+    max-width: 992px;
+    margin: 0 auto;
+}
+
 .my_footer {
     background-color: #00439C;
 }
@@ -59,5 +69,12 @@ background-color: #CD3D0F;
     section.ps5_image p {
         display: none;
     
+    }
+}
+
+@media (min-width: 768px) {
+    .my_card img {
+        height: auto;
+        width: 50%;
     }
 }
