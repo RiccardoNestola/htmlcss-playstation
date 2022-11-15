@@ -13,6 +13,10 @@ body{
 background-color: #CD3D0F;
 }
 
+.my_button_gray {
+    background-color: #D9DADC;
+    }
+
 
 .my_card,
 .my_game {
@@ -38,9 +42,17 @@ background-color: #CD3D0F;
 }
 
 
+.my_hero_playstation_plus {
+    background-color: #BEBCBB;
+}
 
+.my_hero_playstation_now {
+    background-color: #161C3B;
+}
 
-
+.my_footer {
+    background-color: #00439C;
+}
 
 
 @media (max-width: 768px) {
