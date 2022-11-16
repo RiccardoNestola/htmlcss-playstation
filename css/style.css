@@ -19,9 +19,9 @@ body{
 }
 
 .card_selected:hover{
-    border: 2px solid #0072CE !important;
-    border-radius: 18px;
-    padding: 2px;
+    border: 3px solid #0072CE !important;
+    border-radius: 20px;
+    padding: 4px;
 }
 
 
@@ -38,7 +38,8 @@ body{
     background-image: url(../img/jumbo-bg.png);
     background-position: center center;
     background-size: cover;
-    height: 600px;
+    padding-top: 10rem;
+    /* height: 600px; */
 }
 
 .my_button {
@@ -47,7 +48,6 @@ background-color: #CD3D0F;
 
 .my_button_gray {
     background-color: #D9DADC;
-
 }
 
 .my_button_gray:hover {
@@ -60,8 +60,15 @@ background-color: #CD3D0F;
 
 .my_card,
 .my_game {
+    transition: all .25s ease-in-out;
     background-color: rgba(0, 0, 0, 0);
 }
+
+.my_card:hover,
+.my_game:hover {
+    transform: translateY(-0.5rem);
+}
+
 
 .my_hero_it_takes_two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
