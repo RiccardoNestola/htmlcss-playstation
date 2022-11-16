@@ -18,10 +18,27 @@ background-color: #CD3D0F;
     }
 
     
-.my_card img {
+/* .my_card img {
     height: auto;
     width: 100%;
+} */
+
+/* .image_container {
+    height:80%;
+    width: 80%;
+    margin: 0 auto;
+    
+} */
+
+.blue_select {
+    border-bottom: 1px solid blue;
+    overflow: hidden;
+    /* width: calc(100% / 3); */
+    /* margin-left: .5rem; */
+
+
 }
+
 
 .my_card,
 .my_game {
@@ -29,10 +46,10 @@ background-color: #CD3D0F;
     background-color: rgba(0, 0, 0, 0);
 }
 
-.my_game img {
+/* .my_game img {
     height: auto;
     width: 100%;
-}
+} */
 
 
 .my_hero_it_takes_two {
@@ -56,7 +73,7 @@ background-color: #CD3D0F;
 }
 
 .wrapper {
-    max-width: 992px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
