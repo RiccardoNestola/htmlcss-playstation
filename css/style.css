@@ -48,16 +48,15 @@ background-color: #CD3D0F;
 .my_button_gray {
     background-color: #D9DADC;
 
-    }
+}
 
 .my_button_gray:hover {
     background-color: #7f8083; 
-    }
+}
 
-
-.blue_select {
-    border-bottom: 1px solid blue;  
-    }
+.blue_select:hover {
+    border-bottom: 1px solid #0072CE;  
+}
 
 .my_card,
 .my_game {
