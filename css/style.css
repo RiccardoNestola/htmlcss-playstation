@@ -14,6 +14,17 @@ body{
     height:25px;
 }
 
+.card_selected{
+    transition: all .2s cubic-bezier(.215, .61, .355, 1);
+}
+
+.card_selected:hover{
+    border: 2px solid #0072CE !important;
+    border-radius: 18px;
+    padding: 2px;
+}
+
+
 .my_globe {
     width: 16px;
     height: 16px;
@@ -50,7 +61,6 @@ background-color: #CD3D0F;
 
 .my_card,
 .my_game {
-    border: none;
     background-color: rgba(0, 0, 0, 0);
 }
 
